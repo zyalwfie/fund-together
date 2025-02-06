@@ -7,7 +7,8 @@
     "dev": "vite",
     "build": "vite build",
     "preview": "vite preview",
-    "graph": "git log --graph --oneline --all"
+    "graph": "git log --graph --oneline --all",
+    "deploy": "git subtree push --prefix dist origin gh-pages"
   },
   "devDependencies": {
     "vite": "^6.1.0"
