@@ -14,6 +14,7 @@ export default defineConfig({
                 main: resolve(__dirname, 'index.html'),
                 category: resolve(__dirname, 'category.html'),
                 categoryDetail: resolve(__dirname, 'category-detail.html'),
+                postDetail: resolve(__dirname, 'post-detail.html'),
             },
         },
     },
