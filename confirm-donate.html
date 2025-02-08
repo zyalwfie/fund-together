@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="icon" href="logo.svg" type="image/svg+xml" />
+        <link
+            href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+            rel="stylesheet" />
+        <title>Confirm Donate</title>
+    </head>
+    <body>
+        <header class="header">
+            <nav
+                class="header-nav items-center justify-between gap-2 text-white text-lg">
+                <div class="flex gap-2">
+                    <span onclick="history.back()" class="cursor-pointer"
+                        ><i class="bx bx-left-arrow-alt"></i
+                    ></span>
+                    <h1 class="text-lg text-white">Donate</h1>
+                </div>
+                <span><i class="bx bxs-share"></i></span>
+            </nav>
+        </header>
+
+        <main class="main pb-40 px-4 pt-24">
+            <section class="flex flex-col gap-y-4">
+                <div
+                    class="flex flex-col gap-y-1 bg-primary p-4 rounded-[10px]">
+                    <h4 class="text-xl text-white font-medium">Donor Amount</h4>
+                    <span class="font-medium text-3xl text-white"
+                        >Rp750,000.00</span
+                    >
+                </div>
+
+                <div class="flex flex-col-reverse gap-y-1.5">
+                    <div class="flex items-center gap-2">
+                        <input
+                            type="checkbox"
+                            name="anonymous"
+                            id="anonymous"
+                            class="size-4 bg-gray-200 rounded appearance-none checked:bg-primary cursor-pointer" />
+                        <label for="anonymous" class="text-sm cursor-pointer"
+                            >As anonymous</label
+                        >
+                    </div>
+                    <input
+                        type="text"
+                        id="name"
+                        class="px-4 py-2 bg-gray-200 rounded-[10px] focus:outline-secondary focus:outline-2" />
+                    <label for="name" class="text-lg">Name</label>
+                </div>
+
+                <div class="flex flex-col-reverse gap-y-1.5">
+                    <input
+                        type="email"
+                        inputmode="email"
+                        id="name"
+                        class="px-4 py-2 bg-gray-200 rounded-[10px] focus:outline-secondary focus:outline-2" />
+                    <label for="name" class="text-lg">Email</label>
+                </div>
+
+                <div class="flex flex-col-reverse gap-y-1.5">
+                    <div class="relative rounded-[10px] overflow-hidden">
+                        <input
+                            type="number"
+                            inputmode="numeric"
+                            id="name"
+                            class="w-full ps-20 pe-4 py-2 bg-gray-200 focus:outline-secondary focus:outline-2 appearance-none" />
+                            <span class="font-montserrat text-lg absolute top-0 left-0 bottom-0 flex justify-center items-center px-4 font-medium bg-gray-300">+62</span>
+                    </div>
+                    <label for="name" class="text-lg">Phone Number</label>
+                </div>
+
+                <div class="flex flex-col-reverse gap-y-2">
+                    <textarea name="prayer" id="prayer" rows="5" class="bg-gray-200 rounded-[10px] p-4 focus:outline-2 focus:outline-secondary"></textarea>
+                    <label for="prayer">Prayer</label>
+                </div>
+
+                <div class="flex items-start gap-x-2">
+                    <input type="checkbox" name="conditions" id="conditions" class="size-4 bg-gray-200 rounded appearance-none checked:bg-primary cursor-pointer">
+                    <label for="conditions">By continuing the payment, you agree to our <span class="text-primary font-montserrat font-medium">Terms</span> and <span class="text-primary font-montserrat font-medium">Privacy Policy</span>.</label>
+                </div>
+            </section>
+
+            <div class="bottom-nav">
+                <div class="max-w-my-container mx-auto">
+                    <button
+                        type="submit"
+                        onclick="location.href='/fund-together/confirm-donate'"
+                        class="bg-primary w-full flex items-center justify-center py-4 rounded-full text-2xl text-white font-medium gap-2 cursor-pointer">
+                        <span><i class="bx bx-check"></i></span> Confirm
+                    </button>
+                </div>
+            </div>
+        </main>
+
+        <script type="module" src="/src/main.js"></script>
+    </body>
+</html>
