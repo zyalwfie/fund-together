@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="icon" href="logo.svg" type="image/svg+xml" />
+        <link
+            href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+            rel="stylesheet" />
+        <title>Confirm Donate</title>
+    </head>
+    <body>
+        <header class="header">
+            <nav
+                class="header-nav items-center justify-between gap-2 text-white text-lg">
+                <div class="flex gap-2">
+                    <span onclick="history.back()" class="cursor-pointer"
+                        ><i class="bx bx-left-arrow-alt"></i
+                    ></span>
+                    <h1 class="text-lg text-white">Payments</h1>
+                </div>
+                <span><i class="bx bxs-share"></i></span>
+            </nav>
+        </header>
+
+        <main class="main pb-40 pt-24">
+            <section class="flex flex-col gap-y-8">
+                <div
+                    class="flex flex-col gap-y-2 px-4">
+                    <h4 class="text-primary text-4xl font-semibold">Rp750,000.00</h4>
+                    <span class="flex justify-between text-gray-300"
+                        >Order id #IP-RB02344576 <a href="/fund-together/details" class="text-primary font-montserrat">Details</a></span
+                    >
+                </div>
+
+                <div class="bg-primary p-4 text-center text-white">
+                    <h4>Choose payment method before 00.10.30</h4>
+                </div>
+
+                <div class="flex flex-col gap-y-8 px-4">
+                    <h3 class="text-lg text-gray-800 font-medium font-montserrat">All payment methods</h3>
+                    <div class="flex flex-col gap-2">
+                        <div class="flex justify-between text-gray-400">
+                            <h4>Banks</h4>
+                            <span><i class='bx bxs-down-arrow'></i></span>
+                        </div>
+                        <div class="flex gap-x-4">
+                            <img src="/banks/bca.svg" alt="BCA" class="w-16">
+                            <img src="/banks/bni.svg" alt="BNI" class="w-16">
+                            <img src="/banks/bri.svg" alt="BRI" class="w-16">
+                            <img src="/banks/mandiri.svg" alt="Mandiri" class="w-16">
+                        </div>
+                    </div>
+                    <div class="flex flex-col gap-2">
+                        <div class="flex justify-between text-gray-400">
+                            <h4>E-Wallets</h4>
+                            <span><i class='bx bxs-down-arrow'></i></span>
+                        </div>
+                        <div class="flex gap-x-4">
+                            <img src="/e-wallets/dana.svg" alt="DANA" class="w-16">
+                            <img src="/e-wallets/gopay.svg" alt="Gopay" class="w-16">
+                            <img src="/e-wallets/ovo.svg" alt="OVO" class="w-16">
+                            <img src="/e-wallets/s-pay.svg" alt="Shopee Pay" class="w-16">
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <div class="bottom-nav">
+                <div class="max-w-my-container mx-auto flex flex-col items-center gap-y-4">
+                    <div class="flex gap-x-4">
+                        <span class="text-gray-500 font-medium text-lg">Powered by</span>
+                        <img src="/e-wallets/midtrans.svg" alt="Midtrans">
+                    </div>
+                    <button
+                        type="submit"
+                        onclick="location.href='/fund-together/payment-success'"
+                        class="bg-primary w-full flex items-center justify-center py-4 rounded-full text-2xl text-white font-medium gap-2 cursor-pointer">
+                        <span><i class="bx bx-check"></i></span> Pay
+                    </button>
+                </div>
+            </div>
+        </main>
+
+        <script type="module" src="/src/main.js"></script>
+    </body>
+</html>
