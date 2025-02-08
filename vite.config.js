@@ -20,6 +20,7 @@ export default defineConfig({
                 confirmDonate: resolve(__dirname, 'confirm-donate.html'),
                 payments: resolve(__dirname, 'payments.html'),
                 paymentsSuccess: resolve(__dirname, 'payments-success.html'),
+                history: resolve(__dirname, 'history.html'),
             },
         },
     },
