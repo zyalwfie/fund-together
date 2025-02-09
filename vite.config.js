@@ -12,6 +12,7 @@ export default defineConfig({
         rollupOptions: {
             input: {
                 main: resolve(__dirname, 'index.html'),
+                beforeLogin: resolve(__dirname, 'before-login-index.html'),
                 category: resolve(__dirname, 'category.html'),
                 categoryDetail: resolve(__dirname, 'category-detail.html'),
                 postDetail: resolve(__dirname, 'post-detail.html'),
