@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="icon" type="image/svg+xml" href="/fund-together/logo.svg" />
+        <link
+            href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+            rel="stylesheet" />
+        <title>Signup</title>
+      <script type="module" crossorigin src="/fund-together/assets/main-D5EBoygD.js"></script>
+      <link rel="stylesheet" crossorigin href="/fund-together/assets/main-Ca1svLvK.css">
+    </head>
+    <body>
+        <!-- Header -->
+        <header class="header">
+            <nav class="header-nav">
+                <h1 class="text-lg font-semibold text-white">Signup</h1>
+            </nav>
+        </header>
+        <!-- / Header -->
+
+        <!-- Main -->
+        <main class="main px-4 pt-24">
+            <section class="flex flex-col gap-y-8">
+                <h3 class="text-lg font-medium text-gray-800">
+                    Please enter your email and password
+                </h3>
+                <form class="flex flex-col gap-y-4">
+                    <div class="flex flex-col gap-y-2">
+                        <input
+                            type="text"
+                            id="fullname"
+                            name="fullname"
+                            class="border border-gray-300 py-2 px-4 rounded-lg outline-secondary focus:outline-2 focus:outline-secondary transition"
+                            placeholder="Full Name"
+                            autocomplete="off" />
+                    </div>
+                    <div class="flex flex-col gap-y-2">
+                        <input
+                            type="text"
+                            id="username"
+                            name="username"
+                            class="border border-gray-300 py-2 px-4 rounded-lg outline-secondary focus:outline-2 focus:outline-secondary transition"
+                            placeholder="Email"
+                            autocomplete="off" />
+                    </div>
+                    <div class="flex flex-col gap-y-2">
+                        <div class="relative">
+                            <input
+                                type="password"
+                                id="password"
+                                name="password"
+                                placeholder="Password"
+                                class="border w-full border-gray-300 py-2 ps-4 pe-14 rounded-lg outline-secondary focus:outline-2 focus:outline-secondary transition" />
+                            <span
+                                id="hide-password"
+                                class="absolute right-4 top-[50%] -translate-y-[50%] text-gray-400 cursor-pointer"
+                                ><svg
+                                    xmlns="http://www.w3.org/2000/svg"
+                                    viewBox="0 0 24 24"
+                                    fill="none"
+                                    stroke-width="1.5"
+                                    stroke="currentColor"
+                                    class="size-6">
+                                    <path
+                                        stroke-linecap="round"
+                                        stroke-linejoin="round"
+                                        d="M2.036 12.322a1.012 1.012 0 0 1 0-.639C3.423 7.51 7.36 4.5 12 4.5c4.638 0 8.573 3.007 9.963 7.178.07.207.07.431 0 .639C20.577 16.49 16.64 19.5 12 19.5c-4.638 0-8.573-3.007-9.963-7.178Z" />
+                                    <path
+                                        stroke-linecap="round"
+                                        stroke-linejoin="round"
+                                        d="M15 12a3 3 0 1 1-6 0 3 3 0 0 1 6 0Z" />
+                                </svg>
+                            </span>
+                            <span
+                                id="show-password"
+                                class="absolute right-4 top-[50%] -translate-y-[50%] text-gray-400 cursor-pointer"
+                                ><svg
+                                    xmlns="http://www.w3.org/2000/svg"
+                                    viewBox="0 0 24 24"
+                                    fill="none"
+                                    stroke-width="1.5"
+                                    stroke="currentColor"
+                                    class="size-6">
+                                    <path
+                                        stroke-linecap="round"
+                                        stroke-linejoin="round"
+                                        d="M3.98 8.223A10.477 10.477 0 0 0 1.934 12C3.226 16.338 7.244 19.5 12 19.5c.993 0 1.953-.138 2.863-.395M6.228 6.228A10.451 10.451 0 0 1 12 4.5c4.756 0 8.773 3.162 10.065 7.498a10.522 10.522 0 0 1-4.293 5.774M6.228 6.228 3 3m3.228 3.228 3.65 3.65m7.894 7.894L21 21m-3.228-3.228-3.65-3.65m0 0a3 3 0 1 0-4.243-4.243m4.242 4.242L9.88 9.88" />
+                                </svg>
+                            </span>
+                            <a
+                                href="/fund-together/forgot"
+                                class="text-primary text-sm absolute right-0 -bottom-7 transition hover:text-secondary"
+                                >Forgot password?</a
+                            >
+                        </div>
+                    </div>
+                </form>
+                <div class="border-b border-gray-300 my-4">
+                    <p
+                        class="text-gray-300 max-w-max bg-white px-4 mx-auto translate-y-3">
+                        Or signup with
+                    </p>
+                </div>
+                <button class="flex gap-4 text-gray-700 items-center justify-center px-4 py-2 border border-gray-300 rounded-xl">
+                    <span>
+                        <svg
+                            xmlns="http://www.w3.org/2000/svg"
+                            viewBox="0 0 128 128"
+                            width="1.75rem"
+                            height="1.75rem">
+                            <path
+                                fill="#fff"
+                                d="M44.59 4.21a63.28 63.28 0 004.33 120.9 67.6 67.6 0 0032.36.35 57.13 57.13 0 0025.9-13.46 57.44 57.44 0 0016-26.26 74.33 74.33 0 001.61-33.58H65.27v24.69h34.47a29.72 29.72 0 01-12.66 19.52 36.16 36.16 0 01-13.93 5.5 41.29 41.29 0 01-15.1 0A37.16 37.16 0 0144 95.74a39.3 39.3 0 01-14.5-19.42 38.31 38.31 0 010-24.63 39.25 39.25 0 019.18-14.91A37.17 37.17 0 0176.13 27a34.28 34.28 0 0113.64 8q5.83-5.8 11.64-11.63c2-2.09 4.18-4.08 6.15-6.22A61.22 61.22 0 0087.2 4.59a64 64 0 00-42.61-.38z" />
+                            <path
+                                fill="#e33629"
+                                d="M44.59 4.21a64 64 0 0142.61.37 61.22 61.22 0 0120.35 12.62c-2 2.14-4.11 4.14-6.15 6.22Q95.58 29.23 89.77 35a34.28 34.28 0 00-13.64-8 37.17 37.17 0 00-37.46 9.74 39.25 39.25 0 00-9.18 14.91L8.76 35.6A63.53 63.53 0 0144.59 4.21z" />
+                            <path
+                                fill="#f8bd00"
+                                d="M3.26 51.5a62.93 62.93 0 015.5-15.9l20.73 16.09a38.31 38.31 0 000 24.63q-10.36 8-20.73 16.08a63.33 63.33 0 01-5.5-40.9z" />
+                            <path
+                                fill="#587dbd"
+                                d="M65.27 52.15h59.52a74.33 74.33 0 01-1.61 33.58 57.44 57.44 0 01-16 26.26c-6.69-5.22-13.41-10.4-20.1-15.62a29.72 29.72 0 0012.66-19.54H65.27c-.01-8.22 0-16.45 0-24.68z" />
+                            <path
+                                fill="#319f43"
+                                d="M8.75 92.4q10.37-8 20.73-16.08A39.3 39.3 0 0044 95.74a37.16 37.16 0 0014.08 6.08 41.29 41.29 0 0015.1 0 36.16 36.16 0 0013.93-5.5c6.69 5.22 13.41 10.4 20.1 15.62a57.13 57.13 0 01-25.9 13.47 67.6 67.6 0 01-32.36-.35 63 63 0 01-23-11.59A63.73 63.73 0 018.75 92.4z" />
+                        </svg>
+                    </span>
+                    Signup with Google
+                </button>
+            </section>
+
+            <div class="bottom-nav">
+                <div class="max-w-my-container mx-auto">
+                    <a
+                        href="/fund-together/signup"
+                        class="bg-primary flex items-center justify-center py-2 rounded-full text-lg text-white font-medium gap-2 mb-4"
+                        ><span class="flex items-center justify-center"
+                            ><i class="bx bxs-log-in-circle"></i
+                        ></span>
+                        Signup Now</a
+                    >
+                    <p class="text-sm text-gray-400 text-center">Already have an account? <a href="/fund-together/signin" class="text-primary hover:text-secondary transition">Signin</a></p>
+                </div>
+            </div>
+        </main>
+        <!-- / Main -->
+
+    </body>
+</html>
