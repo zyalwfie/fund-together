@@ -22,6 +22,7 @@ export default defineConfig({
                 payments: resolve(__dirname, 'payments.html'),
                 paymentsSuccess: resolve(__dirname, 'payments-success.html'),
                 history: resolve(__dirname, 'history.html'),
+                signup: resolve(__dirname, 'signup.html'),
             },
         },
     },
