@@ -7,13 +7,13 @@
         <link
             href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
             rel="stylesheet" />
-        <title>Signup</title>
+        <title>Signin</title>
     </head>
     <body>
         <!-- Header -->
         <header class="header">
             <nav class="header-nav">
-                <h1 class="text-lg font-semibold text-white">Signup</h1>
+                <h1 class="text-lg font-semibold text-white">Signin</h1>
             </nav>
         </header>
         <!-- / Header -->
@@ -22,18 +22,9 @@
         <main class="main px-4 pt-24">
             <section class="flex flex-col gap-y-8">
                 <h3 class="text-lg font-medium text-gray-800">
-                    Signup to be one of the donors at <span class="bg-gradient-to-tr from-primary to-accent text-transparent bg-clip-text font-medium">Fund Together</span>
+                    Please enter your email and password below
                 </h3>
                 <form class="flex flex-col gap-y-4">
-                    <div class="flex flex-col gap-y-2">
-                        <input
-                            type="text"
-                            id="fullname"
-                            name="fullname"
-                            class="border border-gray-300 py-2 px-4 rounded-lg outline-secondary focus:outline-2 focus:outline-secondary transition"
-                            placeholder="Full Name"
-                            autocomplete="off" />
-                    </div>
                     <div class="flex flex-col gap-y-2">
                         <input
                             type="email"
@@ -98,7 +89,7 @@
                 <div class="border-b border-gray-300 my-4">
                     <p
                         class="text-gray-300 max-w-max bg-white px-4 mx-auto translate-y-3">
-                        Or signup with
+                        Or signin with
                     </p>
                 </div>
                 <button class="flex gap-4 text-gray-700 items-center justify-center px-4 py-2 border border-gray-300 rounded-xl">
@@ -125,21 +116,21 @@
                                 d="M8.75 92.4q10.37-8 20.73-16.08A39.3 39.3 0 0044 95.74a37.16 37.16 0 0014.08 6.08 41.29 41.29 0 0015.1 0 36.16 36.16 0 0013.93-5.5c6.69 5.22 13.41 10.4 20.1 15.62a57.13 57.13 0 01-25.9 13.47 67.6 67.6 0 01-32.36-.35 63 63 0 01-23-11.59A63.73 63.73 0 018.75 92.4z" />
                         </svg>
                     </span>
-                    Signup with Google
+                    Signin with Google
                 </button>
             </section>
 
             <div class="bottom-nav">
                 <div class="max-w-my-container mx-auto">
                     <a
-                        href="/fund-together/signup"
+                        href="/fund-together/signin"
                         class="bg-primary flex items-center justify-center py-2 rounded-full text-lg text-white font-medium gap-2 mb-4"
                         ><span class="flex items-center justify-center"
                             ><i class="bx bxs-log-in-circle"></i
                         ></span>
-                        Signup Now</a
+                        Signin Now</a
                     >
-                    <p class="text-sm text-gray-400 text-center">Already have an account? <a href="/fund-together/signin" class="text-primary hover:text-secondary transition">Signin</a></p>
+                    <p class="text-sm text-gray-400 text-center">Don't have an account yet? <a href="/fund-together/signup" class="text-primary hover:text-secondary transition">Signup</a></p>
                 </div>
             </div>
         </main>
