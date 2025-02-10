@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta
+			name="viewport"
+			content="width=device-width, initial-scale=1.0" />
+		<link
+			rel="icon"
+			type="image/svg+xml"
+			href="/logo.svg" />
+		<link
+			href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+			rel="stylesheet" />
+		<title>Edit Profile</title>
+	</head>
+	<body>
+		<!-- Header -->
+		<header class="header">
+			<nav class="header-nav items-center gap-2 text-white text-lg">
+				<span onclick="history.back()"
+					><i class="bx bx-left-arrow-alt"></i
+				></span>
+				<h1 class="font-medium">Edit Profile</h1>
+			</nav>
+		</header>
+		<!-- / Header -->
+
+		<!-- Main -->
+		<main class="main">
+			<!-- Hero -->
+			<section
+				class="bg-secondary flex flex-col gap-y-4 items-stretch px-4 pt-24 pb-24">
+				<div class="flex justify-center gap-4">
+					<div class="relative">
+                        <img
+                            src="https://avatar.iran.liara.run/public"
+                            alt="Avatar"
+                            class="size-32 rounded-full" />
+                            <button class="absolute bottom-0 right-0 bg-white text-primary rounded-full size-8 border border-primary flex justify-center items-center cursor-pointer">
+                                <i class='bx bxs-camera'></i>
+                            </button>
+                    </div>
+				</div>
+			</section>
+			<!-- / Hero -->
+
+			<!-- Content -->
+			<div class="relative">
+                <section
+                    class="bg-white rounded-t-[50px] px-4 py-8 absolute -top-16 flex flex-col gap-y-8">
+                    <form class="flex flex-col gap-y-6">
+                        <div class="flex flex-col gap-y-2">
+                            <label
+                                for="fullname"
+                                class="text-sm text-gray-400">
+                                Full Name
+                            </label>
+                            <input
+                                type="text"
+                                value="Ziyad Alwafie"
+                                id="fullname"
+                                class="text-lg text-gray-700 px-4 py-2 rounded-lg border border-gray-400 focus:outline-2 outline-secondary transition" />
+                        </div>
+                        <div class="flex flex-col gap-y-2">
+                            <label
+                                for="email"
+                                class="text-sm text-gray-400">
+                                Email
+                            </label>
+                            <input
+                                type="email"
+                                value="zyalwfie@gmail.com"
+                                id="email"
+                                class="text-lg text-gray-700 px-4 py-2 rounded-lg border border-gray-400 focus:outline-2 outline-secondary transition" />
+                        </div>
+                        <div class="flex flex-col gap-y-2">
+                            <label
+                                for="date-of-born"
+                                class="text-sm text-gray-400">
+                                Date of born
+                            </label>
+                            <input
+                                type="date"
+                                value="2002-03-12"
+                                id="date-of-born"
+                                class="text-lg text-gray-700 px-4 py-2 rounded-lg border border-gray-400 focus:outline-2 outline-secondary transition" />
+                        </div>
+                        <div class="flex flex-col gap-y-2">
+                            <label
+                                for="bio"
+                                class="text-sm text-gray-400">
+                                Short bio
+                            </label>
+                            <textarea
+                                name="bio"
+                                id="bio"
+                                rows="5"
+                                class="text-lg text-gray-700 px-4 py-2 rounded-lg border border-gray-400 focus:outline-2 outline-secondary transition"></textarea>
+                        </div>
+                        <div
+                            class="p-6 rounded-xl bg-secondary text-accent text-sm">
+                            <p>
+                                The following information is only visible to you and
+                                will not be published.
+                            </p>
+                        </div>
+                                    <button type="submit" class="py-4 rounded-full bg-primary text-white">Update</button>
+                    </form>
+                </section>
+            </div>
+			<!-- / Content -->
+		</main>
+		<!-- / Main -->
+
+		<script
+			type="module"
+			src="/src/main.js"></script>
+	</body>
+</html>

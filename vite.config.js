@@ -15,6 +15,7 @@ export default defineConfig({
                 beforeLogin: resolve(__dirname, 'before-login-index.html'),
                 account: resolve(__dirname, 'account.html'),
                 profile: resolve(__dirname, 'profile.html'),
+                editProfile: resolve(__dirname, 'edit-profile.html'),
                 category: resolve(__dirname, 'category.html'),
                 categoryDetail: resolve(__dirname, 'category-detail.html'),
                 postDetail: resolve(__dirname, 'post-detail.html'),
