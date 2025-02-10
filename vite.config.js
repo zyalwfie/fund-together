@@ -13,6 +13,7 @@ export default defineConfig({
             input: {
                 main: resolve(__dirname, 'index.html'),
                 beforeLogin: resolve(__dirname, 'before-login-index.html'),
+                account: resolve(__dirname, 'account.html'),
                 category: resolve(__dirname, 'category.html'),
                 categoryDetail: resolve(__dirname, 'category-detail.html'),
                 postDetail: resolve(__dirname, 'post-detail.html'),
