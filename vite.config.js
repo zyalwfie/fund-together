@@ -27,6 +27,8 @@ export default defineConfig({
                 history: resolve(__dirname, 'history.html'),
                 signup: resolve(__dirname, 'signup.html'),
                 signin: resolve(__dirname, 'signin.html'),
+                changePassword: resolve(__dirname, 'change-password.html'),
+                forgotPassword: resolve(__dirname, 'forgot-password.html'),
             },
         },
     },
