@@ -50,7 +50,10 @@
 			<div class="relative">
 				<section
 					class="bg-white rounded-t-[50px] px-4 py-8 absolute -top-16 flex flex-col gap-y-8">
-					<form class="flex flex-col gap-y-6">
+					<form
+						class="flex flex-col gap-y-6"
+						action="/fund-together/profile"
+						method="get">
 						<div class="flex flex-col gap-y-2">
 							<label
 								for="fullname"
@@ -94,10 +97,11 @@
 								Short bio
 							</label>
 							<textarea
-								name="bio"
 								id="bio"
 								rows="5"
-								class="text-lg text-gray-700 px-4 py-2 rounded-lg border border-gray-400 focus:outline-2 outline-secondary transition"></textarea>
+								class="text-lg text-gray-700 px-4 py-2 rounded-lg border border-gray-400 focus:outline-2 outline-secondary transition">
+User Fund Together</textarea
+							>
 						</div>
 						<div
 							class="p-6 rounded-xl bg-secondary text-accent text-sm">
@@ -108,7 +112,7 @@
 						</div>
 						<button
 							type="submit"
-							class="py-4 rounded-full bg-primary text-white">
+							class="py-4 rounded-full bg-primary text-white cursor-pointer">
 							Update
 						</button>
 					</form>
